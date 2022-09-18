@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+  
+  
+  <entry>
+    <title>杀马特土味视频合集</title>
+    <link href="/lxb/7e696a09.html"/>
+    <url>/lxb/7e696a09.html</url>
+    
+    <content type="html"><![CDATA[]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Hexo博客从搭建到使用</title>
+    <link href="/lxb/7f98dbe3.html"/>
+    <url>/lxb/7f98dbe3.html</url>
+    
+    <content type="html"><![CDATA[<h3 id="参考文章"><a href="#参考文章" class="headerlink" title="参考文章:"></a>参考文章:</h3><ol><li><p><a href="https://wxler.github.io/2020/06/01/122000/">使用hexo平台从0搭建个人博客 | Layne’s Blog</a>****</p></li><li><p><a href="https://blog.csdn.net/yanzi1225627/article/details/77761488">hexo链接持久化终极解决之道_yanzi1225627的博客-CSDN博客</a>****</p></li><li><p><a href="https://segmentfault.com/a/1190000038253225">Markdown常用语法</a>****</p></li></ol><p><a href="https://zhuanlan.zhihu.com/p/49184522">Markdown常用2</a>  </p><p><a href="https://www.cnblogs.com/math/p/se-tools-001.html">工具(2): 极简MarkDown排版介绍（How to） - ffl - 博客园</a></p><p><a href="https://gist.github.com/xiaolai/aa190255b7dde302d10208ae247fc9f2">markdown-here-css · GitHub</a></p><h3 id="一、-hexo操作命令"><a href="#一、-hexo操作命令" class="headerlink" title="一、 hexo操作命令"></a>一、 hexo操作命令</h3><pre><code class="hljs">hexo new post &quot;title&quot;  生成新文章(hexo clean 配置更新后用)hexo g 生成静态文件hexo s 启动本地服务器 hexo d  上传到github</code></pre><p>Hexo 刪除 github 的 commit 歷史記錄</p><p>如果要刪除之前的 commit 歷史記錄，只顯示最近版本，方法如下：<br>方法</p><pre><code class="hljs">把這個 folder .\.deploy_git 整個刪掉。在 GitBash 輸入以下：bashhexo cleanhexo g -d</code></pre><h3 id="二、两个插件"><a href="#二、两个插件" class="headerlink" title="二、两个插件"></a>二、两个插件</h3><p>1.Hexo Admin</p><p>用原生的方法来管理博文十分的不便，  因此便有了Hexo Admin这一插件来方便我们的操作。<br>执行 <code>npm install --save hexo-admin</code><br>安装hexo-admin，安装成功后，<br>在”<a href="http://localhost:4000/admin&quot;%E5%B0%B1%E5%8F%AF%E4%BB%A5%E8%AE%BF%E9%97%AEhexo-admin%E9%A1%B5%E9%9D%A2%E3%80%82">http://localhost:4000/admin&quot;就可以访问hexo-admin页面。</a></p><p>插件 hexo-abbrlink，该插件会为每篇生成一个唯一字符串，并不受文章标题和发布时间的影响</p><p>2.hexo-abbrlink</p><p>安装这个插件  </p><p><code>npm install hexo-abbrlink --save</code></p><p>修改博客根目录配置文件_config.yml 的 permalink  </p><figure class="highlight dts"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs dts"><span class="hljs-symbol">permalink:</span> post/:abbrlink.html<br><span class="hljs-symbol">abbrlink:</span><br><span class="hljs-symbol">  alg:</span> crc32  <span class="hljs-meta"># 算法：crc16(default) and crc32</span><br><span class="hljs-symbol">  rep:</span> hex    <span class="hljs-meta"># 进制：dec(default) and hex</span><br></code></pre></td></tr></table></figure><h3 id="三、Markdown全过程排版上手"><a href="#三、Markdown全过程排版上手" class="headerlink" title="三、Markdown全过程排版上手"></a>三、Markdown全过程排版上手</h3>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Oak</title>
+    <link href="/lxb/2201f1d9.html"/>
+    <url>/lxb/2201f1d9.html</url>
+    
+    <content type="html"><![CDATA[<h1 id="The-Oak"><a href="#The-Oak" class="headerlink" title="The Oak"></a>The Oak</h1><p>by<br>Alfred, Lord Tennyson</p><p>Live thy Life,<br>Young and old,<br>Like yon oak,<br>Bright in spring,<br>Living gold;  </p><p>Summer-rich<br>Then; and then<br>Autumn-changed<br>Soberer-hued<br>Gold again.  </p><p>All his leaves<br>Fall’n at length,<br>Look, he stands,<br>Trunk and bough<br>Naked strength.</p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="/lxb/4a17b156.html"/>
+    <url>/lxb/4a17b156.html</url>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo new <span class="hljs-string">&quot;My New Post&quot;</span><br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo server<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo generate<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs bash">$ hexo deploy<br></code></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  
+</search>
